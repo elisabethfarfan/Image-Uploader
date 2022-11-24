@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;
+    
 }
 section{
     width: 100%;
@@ -23,9 +24,9 @@ section{
 }
 .boxDashed{
     background: #F6F8FB;
-    border: 3px dashed #97BEF4;
+    border: 2px dashed #97BEF4;
     border-radius: 12px;
-    width: 90%;
+    width: 80%;
     height: 50%;
     display: flex;
     justify-content: center;
@@ -34,13 +35,14 @@ section{
 }
 img{
     width: 40%;
+    padding-bottom: 2.5rem;
 }
-.formatImage{
+p{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
-    font-size: 10px;
-    line-height: 15px;
+    font-size: 12px;
+    line-height: 18px;
     /* identical to box height */
 
     text-align: center;
@@ -49,4 +51,36 @@ img{
     /* Gray 3 */
 
     color: #828282;
+}
+.formatImage{
+    font-size: 10px;
+}
+
+h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+    letter-spacing: -0.035em;
+    /* Gray 2 */
+    color: #4F4F4F;
+}
+
+button{
+    padding: 0.5rem 1rem;
+    border: none;
+    background: #2F80ED;
+    border-radius: 8px;
+    
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: -0.035em;
+
+    color: #FFFFFF;
 }
